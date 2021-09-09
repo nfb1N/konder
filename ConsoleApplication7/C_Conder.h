@@ -23,9 +23,9 @@ public:
 		this->isWork = true;
 	}
 
-	void Work( ) {
+	void Work(C_Room& room) {
 		while (isWork) {
-			this->indicator->compareTempreture(this->init_tempreture)
+			this->indicator->thinkTmp();
 		}
 	}
 

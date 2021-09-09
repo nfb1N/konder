@@ -23,7 +23,6 @@ public:
 
 	C_Temperature getTmp() {
 		return this->temper;
-		
 	}
 };
 
